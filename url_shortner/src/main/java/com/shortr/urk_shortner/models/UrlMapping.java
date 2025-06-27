@@ -1,4 +1,4 @@
-package models;
+package com.shortr.urk_shortner.models;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -8,7 +8,7 @@ import java.util.List;
 
 @Entity
 @Data
-public class urlMapping {
+public class UrlMapping {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -23,5 +23,5 @@ public class urlMapping {
 
 
     @OneToMany (mappedBy = "urlMapping") // many urls shortened at 1 time only
-    private List<clickEvent> clickEvents;
+    private List<ClickEvent> clickEvents;
 }
