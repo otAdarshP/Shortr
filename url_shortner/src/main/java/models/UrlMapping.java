@@ -1,4 +1,4 @@
-package com.shortr.urk_shortner.models;
+package models;
 
 import jakarta.persistence.*;
 import lombok.Data;

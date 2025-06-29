@@ -12,7 +12,6 @@
         </processorPath>
         <module name="urk_shortner" />
       </profile>
-      <profile name="Annotation profile for shortrdb" enabled="true" />
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
